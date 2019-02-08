@@ -1,5 +1,5 @@
 # uwds_dockerfile
-Contains the Dokerfile of Underworlds
+Contains the Dockerfile of Underworlds (server only !)
 
 ## Docker installation instructions
 
@@ -39,11 +39,11 @@ To use docker without sudo, follow the [instructions here](https://docs.docker.c
 
 Clone the repository :
 ```
-git clone https://github.com/underworlds-robot/uwds_dokerfile.git
+git clone https://github.com/underworlds-robot/uwds_dockerfile.git
 ```
 And build the dockerfiles with :
 
 ```
-cd uwds_dokerfile
+cd uwds_dockerfile
 sudo docker build .
 ```
